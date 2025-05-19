@@ -13,7 +13,7 @@ module.exports = {
     devServer: {
         static: path.resolve(__dirname, "dist"),
         watchFiles: ["./src/template.html", "./src/**/*"],
-        port: 8080,
+        port: 8000,
         hot: true,
         open: true,
     },
