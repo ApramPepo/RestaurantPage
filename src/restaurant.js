@@ -43,4 +43,4 @@ menuList.forEach(menuItems => {
 
 }
 
-export default homePage();
+module.exports = homePage;

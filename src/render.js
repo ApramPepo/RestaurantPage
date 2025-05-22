@@ -1,7 +1,7 @@
-import homePage from "./restaurant";
+require('./restaurant.js');
 
 function drawPage() {
     homePage();
 }
 
-export default drawPage;
+module.exports = drawPage;
