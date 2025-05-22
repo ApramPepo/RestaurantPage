@@ -33,4 +33,14 @@ reasons.forEach(reason => {
     list.appendChild(li);
 });
 
+const menu = [ "Bonanza Classic - $5.99" , "Spicy Firecracker - $6.49", "Mushroom Melt - $6.99", "Veggie Delight - $5.49"];
+const menuList = document.createElement("ul");
+menuList.forEach(menuItems => {
+    const li = document.createElement("li");
+    li.textContent = menuItems;
+    list.appendChild(li);
+});
+
 }
+
+export default homePage();
