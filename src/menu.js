@@ -2,6 +2,7 @@ const menuPage = () => {
     const content = document.getElementById("content");
 
     const items = document.createElement("div");
+    items.classList.add("menu-page");
 
     const h2 = document.createElement("h2");
     h2.innerHTML = "Why Choose Us?";

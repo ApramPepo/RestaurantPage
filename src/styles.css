@@ -8,9 +8,57 @@ body {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 2rem;
     margin: 1ch;
     align-items: center;
+}
 
+button {
+    width: 6rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s background-color, color;
+}
+
+button:hover {
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 5ch;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    width: 680px;
+    font-size: larger;
+}
+
+img {
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
 }
