@@ -20,6 +20,9 @@ const aboutPage = () => {
     mail.placeholder = "Enter your Email...";
     items.appendChild(mail);
 
+    const br = document.createElement("br");
+    items.appendChild(br);
+
     const desc = document.createElement("textarea");
     desc.type = "text";
     desc.rows = "4";
